@@ -40,7 +40,7 @@ SHORT='\h'
 # HD: hostname display (\h vs \H)
 # Defaults:
 UC=$GREEN
-LC=$GRAY
+LC=$WHITE
 HD=$FULL
 
 # Prompt function because PROMPT_COMMAND is awesome
