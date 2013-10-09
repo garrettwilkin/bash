@@ -19,6 +19,13 @@ alias psql=/usr/local/pgsql-9.1/bin/psql
 # Define an entry point for the lua script version of hop
 alias hop-lua-script="LUA_PATH=/System/Library/Frameworks/Python.framework/Versions/2.7/hop/json.lua /System/Library/Frameworks/Python.framework/Versions/2.7/hop/hop.lua"
 
+# Vagrant
+alias vadd="vagrant box add"
+alias vhalt="vagrant halt"
+alias vpro="vagrant provision"
+alias vssh="vagrant ssh"
+alias vup="vagrant up --no-provision"
+
 # Everyone needs a little color in their lives
 RED='\[\033[31m\]'
 GREEN='\[\033[32m\]'
